@@ -29,5 +29,28 @@ no saldra una M como que ha sido modificado respecto al commit de antes.
 ahora esta modificacion la tenemos en el WORKING DIRECTORY, tendremos que pasarlo 
 mediante add al AREA TEMPORAL, y con un commit al REPOSITORY
 
+podemos ver los commit que hemos hecho y restaurar esas versiones:
+veamos la versiones que hemos hecho --> git log --oneline
+
+1e49786 (HEAD -> master) relleno
+146a5c8 estilos y comandos
+f10f678 modificacion
+01e4304 todo
+
+estos son los commit que hemos hecho y podemos volver a qualquier parte
+git reset --hard 146a5c8
+
+146a5c8 (HEAD -> master) estilos y comandos
+f10f678 modificacion
+01e4304 todo
+
+pero que pasa si queremos volver al que teniamos antes que ahora no nos aparece:
+git reset --hard 1e49786, es decir ponemos el identificado de antes y punto
+
 esto se puede enlazar con repositorios en la nube como github y asi poder trabajar
-con otra gente, para ello tenedremos que ultilizar GIT PUSH ARCHIVO
+con otra gente, veamos como hacerlo:
+primero de todo creamos un repositorio en github
+lo segundo sera decirle a la herramienta cual es la url del repositorio para ello:
+git remote add origin https://github.com/jofuto29/git-ejemplo.git
+
+para guardar en la nube git push -u origin master
