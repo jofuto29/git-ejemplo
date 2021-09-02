@@ -25,7 +25,9 @@ el ultimo repositorio que tenemos en git seria el GIT REPOSITORY y para pasarlo
 aqui tendiamos que hacer lo mismo con un GIT COMMIT ARCHIVO, aqui se guarda una foto de los archivos
 --Z podemos añadir mensajes para que las personas del equipo sepan que estamos haciendo: git commit -m "agragamos index.html"
 una vez hecho esto, todos los archivos estaran en el git repository, y si ahora modificamos algunos de ellos
-no saldra una M como que ha sido modificado respecto al commit de antes
+no saldra una M como que ha sido modificado respecto al commit de antes.
+ahora esta modificacion la tenemos en el WORKING DIRECTORY, tendremos que pasarlo 
+mediante add al AREA TEMPORAL, y con un commit al REPOSITORY
 
 esto se puede enlazar con repositorios en la nube como github y asi poder trabajar
 con otra gente, para ello tenedremos que ultilizar GIT PUSH ARCHIVO
