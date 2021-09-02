@@ -62,3 +62,5 @@ ETIQUETAS:
 `para por ejemplo descargarte una version antigua del proyecto, te la puedes decargar con un zip desde github
 para crea una etiqueta : git tag version1.0 .m "decripcion: mensaje 1.0"
 para subir la etiqueta: git push --tags
+
+RAMAS/BRANCHS:
