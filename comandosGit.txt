@@ -1,0 +1,29 @@
+
+git version --> nos muestra la version que tenemos intalada de git
+
+git help --> nos muestra todos los comandos
+
+git init --> se pone tan solo una vez y sirve para crear el nuevo repositorio
+de la carpeta que queramos para hacerles el seguimiento.
+cuando hagamos esto se nos pintara todos los nombres en visualstudio de verde marcando
+como que hemos creado un repositiorio nuevo y tenemos esos archivos
+
+git status -s --> muestra los archivos que no han sido modificados
+
+
+
+EN RESUMEN
+los archivos que se encuentran en la carpeta al ahcer el GIT INIT se encontraran
+en el WORKING DIRECTORY y los podemos ir moviendo para hacer modificaciones
+y poder volver al versiones anteriores por si no nos gusta lo que hemos modificado
+
+para pasar un archivo al repositorio siguiente que en este caso seria WORKING AREA
+seria: GIT ADD ARCHIVO este estara aqui de manera temporal podemos modificarlo...
+con . seleccionas todos los archivos
+
+el ultimo repositorio que tenemos en git seria el GIT REPOSITORY y para pasarlo
+aqui tendiamos que hacer lo mismo con un GIT COMMIT ARCHIVO, aqui se guarda una foto de los archivos
+--Z podemos añadir mensajes para que las personas del equipo sepan que estamos haciendo: git commit -m "agragamos index.html"
+
+esto se puede enlazar con repositorios en la nube como github y asi poder trabajar
+con otra gente, para ello tenedremos que ultilizar GIT PUSH ARCHIVO
