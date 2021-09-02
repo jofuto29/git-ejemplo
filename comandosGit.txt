@@ -54,3 +54,5 @@ lo segundo sera decirle a la herramienta cual es la url del repositorio para ell
 git remote add origin https://github.com/jofuto29/git-ejemplo.git
 
 para guardar en la nube git push -u origin master
+
+para traer de git hub pondremos: git pull y asi sincronizaremos con el repositorio local
