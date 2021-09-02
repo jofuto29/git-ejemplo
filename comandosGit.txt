@@ -56,3 +56,4 @@ git remote add origin https://github.com/jofuto29/git-ejemplo.git
 para guardar en la nube git push -u origin master
 
 para traer de git hub pondremos: git pull y asi sincronizaremos con el repositorio local
+git fetch hace el push y pull, osea nos sincroniza lo que tenemos en los dos lados.
