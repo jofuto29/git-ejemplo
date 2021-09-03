@@ -97,3 +97,18 @@ dos rams como el equipo haya decidido.
 
 GITHUB PAGES
 podemos hacer una pagina web por cada repositorio en github
+lo primero que tenemos que hacer es crear un repositorio con nuestro cuyo nombre debe ser: usuariogithub.github.io 
+en nuestro caso el nombre del repositorio: jofuto29.github.io
+
+una vez hecho esto podemos usar boostrap para crear una pagina web muy rapido copiamos el html y lo ponemos en el index
+luego lo que hemos hecho antes para empezar a usar git y github, es decir:
+    1. git init
+    2. git remote add origin https://github.com/jofuto29/jofuto29.github.io.git
+        esto segundo para enlazarlo con el repositorio que tenemos creado en github
+    3. git add . and git commit -m "el index añadido"
+    4. git push -u origin master //para subirlo al github
+
+    una vez hecho esto tenemos los archivos subidos a github
+    5. ahora iremos a sseting en github y bajaremos hasta github pages donde veremos:
+         Your site is published at https://jofuto29.github.io/
+         es decir nuestro idex html estara subido a jofuto29.github.io :)
