@@ -85,3 +85,11 @@ primero de todo nos cambiamos a la rama master, como antes: git checkout master
 todas las modificaciones que hayamos hecho en esta rama ya no estaran,.
 ahora estando en la rama master tendremos que juntar las rama para ello:
 
+git merge ramaParrafo, como hemos terminado con esta rama la podemos eliminar 
+git branch -d ramaParrafo
+
+si modificamos la mismas sentencias en la rama master y en la secundaria, al hacer el merge
+git no entendera con cual quedarse y nos dara a elegir entre quedarse con la actual, quedarse con la de la rama,
+combinar los dos cambios y evaluar los cambios.
+en este caso tendremos que hacer de nuevo un add . y un commit para que todo se quede en la version final juntando las 
+dos rams como el equipo haya decidido.
