@@ -93,3 +93,7 @@ git no entendera con cual quedarse y nos dara a elegir entre quedarse con la act
 combinar los dos cambios y evaluar los cambios.
 en este caso tendremos que hacer de nuevo un add . y un commit para que todo se quede en la version final juntando las 
 dos rams como el equipo haya decidido.
+
+
+GITHUB PAGES
+podemos hacer una pagina web por cada repositorio en github
