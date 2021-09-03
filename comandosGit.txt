@@ -81,3 +81,7 @@ d83d654 (origin/master, master) nuevo doc
 ahora estamos divididos, el master esta por un lado y esta rama por otro,
 si queremos unir las dos cosas haremos los siguiente:
 
+primero de todo nos cambiamos a la rama master, como antes: git checkout master
+todas las modificaciones que hayamos hecho en esta rama ya no estaran,.
+ahora estando en la rama master tendremos que juntar las rama para ello:
+
