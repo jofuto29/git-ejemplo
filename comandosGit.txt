@@ -112,3 +112,13 @@ luego lo que hemos hecho antes para empezar a usar git y github, es decir:
     5. ahora iremos a sseting en github y bajaremos hasta github pages donde veremos:
          Your site is published at https://jofuto29.github.io/
          es decir nuestro idex html estara subido a jofuto29.github.io :)
+
+podemos enlazar con otros repositorios para ellos:
+en un repositorio nuevo o ya existente, si es nuevo tendremos que hacer lo de git para subir los archivos
+
+    1. creamos la carpeta docs
+    2. creamos el index html dentro de esa carpeta docs
+    3. lo subimos todo en el repositorio
+    4. dentro de ese repositorio iremos a settings y como antes github pages
+    5. ahora entramos y efectivamente no nos ha creado una pagina web a partir de lo que tenemos para hacerlo
+    6. tendremos que coger la rama master haciendo referencia a la pagina web que teniamos antes y en folder la capeta docs que hemos creado
