@@ -73,3 +73,11 @@ para trabajar asi:
 creamos una rama:  git branch ramaParrafo
 una vez creada nos movemos a ella: git checkout ramaParrafo
 podemos consultar la rama en la que estamos mediante: git branch
+ahora para guardar lo que hacemos es lo mismo que hacemos normalmente, git add + git commit, lo que se quedara guardado en la rama
+si hacemos un git log --oneline:
+
+f393eb7 (HEAD -> ramaParrafo) commit de la rama
+d83d654 (origin/master, master) nuevo doc
+ahora estamos divididos, el master esta por un lado y esta rama por otro,
+si queremos unir las dos cosas haremos los siguiente:
+
