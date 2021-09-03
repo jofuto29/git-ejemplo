@@ -64,3 +64,12 @@ para crea una etiqueta : git tag version1.0 .m "decripcion: mensaje 1.0"
 para subir la etiqueta: git push --tags
 
 RAMAS/BRANCHS:
+esto sirve para trabajar en equipo, mientras uno programa una parte el otro esta haciendo otra parte:
+hay una imagen donde vemos dos lineas temporales, partiendo de un punto base se divide la linea temporal en dos
+una master tip y la feature rip y luego se juntan en un new merge commit, veamos como funciona todo esto:
+
+d83d654 (HEAD -> master, origin/master) nuevo doc, como vemos estamos posicionados en la rama master
+para trabajar asi:
+creamos una rama:  git branch ramaParrafo
+una vez creada nos movemos a ella: git checkout ramaParrafo
+podemos consultar la rama en la que estamos mediante: git branch
